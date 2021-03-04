@@ -22,8 +22,10 @@ ul li {
 	background-color: rgba(13, 13, 13);
 }
 /*main-text*/
-.custom-text {
+.container {
 	color: #ba181b;
+	min-height: 500px;
+	padding-top: 35vh;
 }
 
 h2 {
