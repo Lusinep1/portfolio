@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+body {
+	background-image: url(img/paul-volkmer-_Apdet7E5yU-unsplash.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
 ul li {
 	margin-right: 2em;
 }
@@ -6,7 +13,6 @@ ul li {
 	background-color: rgba(13, 13, 13);
 }
 .container {
-	font-family: 'Nanum Gothic', sans-serif;
 	color: #ba181b;
 	position: absolute;
 	top: 45%;
@@ -20,4 +26,45 @@ figure {
 }
 .blockquote-footer {
 	color: white;
+}
+@media only screen and (max-width: 1000px) {
+	.container {
+		font-size: xx-small;
+		position: absolute;
+		top: 35%;
+		left: 15%;
+	}
+	.img-fluid {
+		width: 100vw;
+	}
+}
+@media only screen and (max-width: 845px) {
+	.container {
+		position: absolute;
+		top: 25%;
+		left: 8%;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	.blockquote-footer {
+		font-size: 12px;
+	}
+}
+@media only screen and (max-width: 475px) {
+	.text-secondary {
+		font-size: 20px;
+	}
+	.lp {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 17px;
+	}
+	.blockquote {
+		font-size: 13px;
+	}
+	.blockquote-footer {
+		font-size: 8px;
+	}
 }
