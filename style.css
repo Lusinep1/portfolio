@@ -5,11 +5,19 @@ ul li {
 .bg-custom {
 	background-color: rgba(13, 13, 13);
 }
-h1 {
+.container {
 	font-family: 'Nanum Gothic', sans-serif;
-	font-weight: 800;
 	color: #ba181b;
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	left: 15%;
+}
+h2 {
+	color: white;
+}
+figure {
+	color: white;
+}
+.blockquote-footer {
+	color: white;
 }
