@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 ul li {
 	margin-right: 2em;
 }
 .bg-custom {
-	background-color: #0d0d0d;
+	background-color: rgba(13, 13, 13);
+}
+h1 {
+	color: blue;
+	position: absolute;
+	top: 40%;
+	left: 20%;
 }
