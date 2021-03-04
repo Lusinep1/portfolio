@@ -1,23 +1,31 @@
+body,
+html {
+	background-color: #fff;
+	color: #373a3c;
+	--main-color: #ba181b;
+	--secondary-color: #f6f6f6;
+}
+/*image*/
 body {
 	background-image: url(img/paul-volkmer-_Apdet7E5yU-unsplash.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
+	height: 100vh;
 }
-
+/*navbar margins*/
 ul li {
 	margin-right: 2em;
 }
+/*navbar bg-color*/
 .bg-custom {
 	background-color: rgba(13, 13, 13);
 }
-.container {
+/*main-text*/
+.custom-text {
 	color: #ba181b;
-	position: absolute;
-	top: 45%;
-	left: 15%;
 }
+
 h2 {
 	color: white;
 }
@@ -26,45 +34,4 @@ figure {
 }
 .blockquote-footer {
 	color: white;
-}
-@media only screen and (max-width: 1000px) {
-	.container {
-		font-size: xx-small;
-		position: absolute;
-		top: 35%;
-		left: 15%;
-	}
-	.img-fluid {
-		width: 100vw;
-	}
-}
-@media only screen and (max-width: 845px) {
-	.container {
-		position: absolute;
-		top: 25%;
-		left: 8%;
-	}
-	h2 {
-		font-size: 25px;
-	}
-	.blockquote-footer {
-		font-size: 12px;
-	}
-}
-@media (max-width: 475px) {
-	.text-secondary {
-		font-size: 20px;
-	}
-	.lp {
-		font-size: 20px;
-	}
-	h2 {
-		font-size: 17px;
-	}
-	.blockquote {
-		font-size: 13px;
-	}
-	.blockquote-footer {
-		font-size: 8px;
-	}
 }
