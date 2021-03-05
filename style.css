@@ -37,3 +37,8 @@ figure {
 .blockquote-footer {
 	color: white;
 }
+/*button "find out more"*/
+.custom-btn {
+	background-color: #ba181b;
+	color: white;
+}
