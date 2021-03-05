@@ -1,3 +1,8 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 body,
 html {
 	background-color: #fff;
@@ -41,4 +46,11 @@ figure {
 .custom-btn {
 	background-color: #ba181b;
 	color: white;
+}
+/*icon*/
+.bi,
+.bi-chevron-down {
+	color: white;
+	display: block;
+	margin: auto;
 }
