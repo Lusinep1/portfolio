@@ -42,15 +42,27 @@ figure {
 .blockquote-footer {
 	color: white;
 }
+/*About me background*/
+#aboutme {
+	background-color: --secondary-color;
+}
 /*button "find out more"*/
 .custom-btn {
 	background-color: #ba181b;
 	color: white;
 }
 /*icon*/
-.bi,
-.bi-chevron-down {
+.custom-bi {
 	color: white;
 	display: block;
 	margin: auto;
+	transition: transform 0.15s;
+	font-weight: bold;
+}
+.custom-bi:hover {
+	transform: translateY(-0.25rem);
+}
+/*project background*/
+#projects {
+	background-color: #fff;
 }
