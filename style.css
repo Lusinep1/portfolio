@@ -29,7 +29,7 @@ ul li {
 /*main-text*/
 .container {
 	color: #ba181b;
-	min-height: 500px;
+	min-height: 555px;
 	padding-top: 35vh;
 }
 
@@ -44,7 +44,7 @@ figure {
 }
 /*About me background*/
 #aboutme {
-	background-color: --secondary-color;
+	background-color: #f6f6f6;
 }
 /*button "find out more"*/
 .custom-btn {
@@ -65,4 +65,7 @@ figure {
 /*project background*/
 #projects {
 	background-color: #fff;
+}
+.custom-color {
+	color: #373a3c;
 }
