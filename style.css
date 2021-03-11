@@ -70,3 +70,8 @@ figure {
 .custom-color {
 	color: #373a3c;
 }
+/*skills*/
+#skills {
+	background-color: #f6f6f6;
+	padding-bottom: 5em;
+}
