@@ -11,8 +11,8 @@ html {
 	--secondary-color: #f6f6f6;
 }
 /*image*/
-body {
-	background-image: url(img/paul-volkmer-_Apdet7E5yU-unsplash.jpg);
+.main-header {
+	background-image: url(img/paul-volkmer-_Apdet7E5yU-unsplas.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -65,7 +65,7 @@ figure {
 /*project background*/
 #projects {
 	background-color: #fff;
-	margin-top: 0;
+	margin-top: 2.5em;
 }
 .custom-color {
 	color: #373a3c;
@@ -74,4 +74,13 @@ figure {
 #skills {
 	background-color: #f6f6f6;
 	padding-bottom: 5em;
+}
+.colory {
+	background-color: #ba181b;
+	color: #fff;
+	transition: background-color .4s, color .4s;
+}
+.colory:hover {
+	background-color: #fff;
+	color: #ba181b;
 }
