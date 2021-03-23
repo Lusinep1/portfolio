@@ -84,3 +84,28 @@ figure {
 	background-color: #fff;
 	color: #ba181b;
 }
+/*social*/
+.social-container {
+	border: 2px solid #ba181b;
+	border-radius: 30%;
+	font-size: 1.6rem;
+	height: 3.75rem;
+	margin: .35rem;
+	padding-top: .9375rem;
+	padding-left: .9375rem;
+	width: 3.75rem;
+	color: #ba181b;
+	transition: background-color .5s, color .5s ease-in-out;
+}
+.social-container:hover {
+	background-color: #ba181b;
+	color: white;
+}
+.hide {
+	visibility: hidden;
+}
+@media (max-width: 480px) {
+	.sm {
+		visibility: hidden;
+	}
+}
