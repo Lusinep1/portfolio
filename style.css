@@ -32,6 +32,9 @@ ul li {
 	min-height: 500px;
 	padding-top: 35vh;
 }
+.port {
+	color: #ba181b;
+}
 
 h2 {
 	color: white;
@@ -112,6 +115,7 @@ figure {
 	visibility: hidden;
 }
 /*workwithme*/
+
 #workwithme {
 	background-color: #f6f6f6;
 }
@@ -124,4 +128,8 @@ figure {
 	line-height: 1.1;
 	margin-bottom: .5rem;
 	color: #373a3c;
+}
+/*aboutchamp*/
+#aboutchamp {
+	background-color: #484848;
 }
