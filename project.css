@@ -1,0 +1,21 @@
+/*image, technologies used*/
+.img-custom {
+	border-radius: 2%;
+}
+/*back to projects*/
+.backto {
+	transition: margin-right .3s, color .3s;
+}
+.backto:hover {
+	margin-right: .5em;
+	cursor: pointer;
+	color: #373a3c;
+}
+/*Overview*/
+#overview {
+	background-color: #484848;
+}
+.bordery {
+	border-left: 3px solid #ba181b;
+	height: fit-content;
+}

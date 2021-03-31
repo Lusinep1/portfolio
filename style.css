@@ -54,7 +54,7 @@ figure {
 	background-color: #ba181b;
 	border: none;
 	color: white;
-	transition: color 0.25s, border-color 0.25s, box-shadow 0.25s transform 0.25s;
+	transition: color 0.3s, border-color 0.3s, box-shadow 0.3s transform 0.3s;
 }
 
 .custom-btn:hover {
@@ -62,8 +62,8 @@ figure {
 	color: #ba181b;
 	cursor: pointer;
 	border: 1px solid #ba181b;
-	box-shadow: 0 0.1em 0.1em -0.1em #003049;
-	transform: translateY(-0.15em);
+	box-shadow: 0 .11em .11em -.11em #003049;
+	transform: translateY(-.115em);
 }
 /*icon*/
 .custom-bi {
