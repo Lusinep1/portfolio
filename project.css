@@ -2,6 +2,9 @@
 .img-custom {
 	border-radius: 2%;
 }
+.img-custom:hover {
+	transform: scale(1.009);
+}
 /*back to projects*/
 .backto {
 	transition: margin-right .3s, color .3s;
