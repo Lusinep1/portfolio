@@ -18,10 +18,7 @@
 #overview {
 	background-color: #484848;
 }
-/*. bordery {
-	border-left: 3px solid #ba181b;
-	height: fit-content;
-} */
+/*red left-borer of overview*/
 @media only screen and (min-width: 768px) {
 	.bordery {
 		border-left: 3px solid #ba181b;
